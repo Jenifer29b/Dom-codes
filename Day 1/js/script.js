@@ -9,6 +9,8 @@ console.log(document)
 let value = document.getElementById("first")
 console.log(value.textContent)
 
+// It is used to select multiple elements by using their classname . 
+// we can select by using index number starts with 0
 let classvalue = document.getElementsByClassName("one")
 console.log(classvalue)
 console.log(classvalue[1].textContent)
