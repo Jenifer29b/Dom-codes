@@ -1,6 +1,6 @@
-"# Dom-codes" 
+# Dom-codes
 
-// Day 1 - Dom Introduction 
+Day 1 - Dom Introduction 
   1.index.html contains the code about the selecting the dom content by using various methods 
    [getElementById,getElementsByClassname,getElementsByTagname]
 
