@@ -5,6 +5,8 @@
 // all tags are starts with document. 
 console.log(document)
 
+// Selecting the elements : 
+
 // It is used to select only one element by using their id. textcontent is used get only one content 
 let value = document.getElementById("first")
 console.log(value.textContent)
@@ -15,3 +17,20 @@ let classvalue = document.getElementsByClassName("one")
 console.log(classvalue)
 console.log(classvalue[1].textContent)
 
+//select element by Tagname : used to select elements by their tagname
+
+let listvalue = document.getElementsByTagName("li")
+console.log(listvalue.length)
+
+// queryselecter :returns first matching element .returns single element 
+
+let queryvalue = document.querySelector(".one")
+console.log(queryvalue.textContent)
+
+//queryselectorall : returns all matching elements
+
+let allvalue = document.querySelectorAll(".one")
+
+allvalue.forEach((element) => {
+    console.log(element.textContent)
+})
