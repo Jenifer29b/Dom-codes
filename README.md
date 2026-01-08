@@ -53,17 +53,6 @@ Reading attributes:
 
 🔹 Practice Task
 
-Created a simple HTML page containing:
-
-<h1>
-
-<p>
-
-<button>
-
-<input>
-
-<ul> with multiple <li> items
 
 JavaScript tasks:
 
