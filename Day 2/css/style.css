@@ -1,0 +1,13 @@
+.p1{
+    background-color: aqua;
+    color: rgb(225, 136, 20);
+    border: 2px solid black;
+}
+
+.btn1{
+    background-color: black;
+    color: white;
+    background-color: 4px solid rgb(212, 195, 195);
+    padding: 2px;
+    margin: 2px;
+}
