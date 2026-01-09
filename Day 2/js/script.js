@@ -1,8 +1,10 @@
+// Changing the text :
 let heading = document.getElementById("head")
 heading.innerText = "Welcome to Day2 of DOM Class"
 heading.innerHTML = "<span style = 'color : red'>Welcome to Day2 of DOM Class</span>"
 console.log(heading.textContent)
 
+// Adding Styles to element:
 let parag = document.getElementById("para")
 parag.style.color = "yellow"
 parag.style.backgroundColor = "red"
@@ -10,6 +12,7 @@ parag.style.border = "2px solid black"
 parag.style.fontSize = "2em"
 console.log(parag.textContent)
 
+//Classlist adding class:
 let parag1 = document.getElementById("para1")
 console.log(parag1.textContent)
 // parag1.classList.add("p1", "paragh1")
@@ -24,3 +27,11 @@ button.addEventListener("click", () => {
     alert("button clicked")
     button.innerText = "Button clicked"
 })
+
+// Adding Attributes :
+
+let image = document.getElementById("img")
+image.setAttribute("src", "newLogo")
+console.log(image.getAttribute("src"))
+image.removeAttribute("src")
+
