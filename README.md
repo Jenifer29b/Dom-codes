@@ -83,7 +83,7 @@ Adding / removing classes:
 
 .classList.toggle()
 
-📅 Day 3 – Creating & Removing Elements (DOM Manipulation)
+✅ Day 3 – Creating & Removing Elements (DOM Manipulation)
 
 This folder contains practice tasks and examples focused on creating, appending, removing, and updating DOM elements dynamically using JavaScript.
 
