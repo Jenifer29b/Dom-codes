@@ -37,6 +37,8 @@ btn1.addEventListener("click", () => {
     
     ul1.appendChild(li)
     console.log("item added", item)
-    
     document.getElementById("txt").value = "";
+    console.log("Total Count : " ,ul1.children.length)
 })
+
+

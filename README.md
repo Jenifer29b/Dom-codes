@@ -83,13 +83,111 @@ Adding / removing classes:
 
 .classList.toggle()
 
-🔹 Key Learning
+📅 Day 3 – Creating & Removing Elements (DOM Manipulation)
 
-JavaScript controls behavior
+This folder contains practice tasks and examples focused on creating, appending, removing, and updating DOM elements dynamically using JavaScript.
 
-CSS controls appearance
+The goal of Day 3 is to understand how elements are created in memory, added to the DOM, removed, and updated based on user interactions.
 
-Best practice: toggle classes instead of inline styles
+📚 Concepts Covered
+🆕 Creating New Elements
+
+document.createElement()
+
+element.textContent
+
+Example:
+
+let li = document.createElement("li");
+li.textContent = "Apple";
+
+➕ Appending Elements
+
+appendChild() – appends one node
+
+append() – appends multiple nodes or text
+
+Examples:
+
+ul.appendChild(li);
+ul.append(li1, li2);
+
+❌ Removing Elements
+
+parent.removeChild(child)
+
+element.remove()
+
+Examples:
+
+li.remove();
+ul.removeChild(li);
+
+🔄 Updating Lists Dynamically
+
+Add list items from input
+
+Update existing list items
+
+Remove single or all list items
+
+Count total items dynamically
+
+Switch between view and edit mode
+
+🧪 Practice Tasks Included
+
+Create list items dynamically
+
+Append items to an existing list
+
+Remove first, last, or selected items
+
+Clear all list items
+
+Update list item text using input
+
+Validate input before adding or updating
+
+Display total count of list items
+
+📂 Folder Structure (Example)
+📁 Day-3-Creating-Removing-Elements
+   ├── index.html
+   ├── script.js
+   ├── style.css 
+   └── README.md
+
+🎯 Learning Objectives
+
+By completing this folder, you will be able to:
+
+Understand how the DOM works
+
+Create and manipulate elements dynamically
+
+Handle user events effectively
+
+Write clean and readable DOM-based JavaScript
+
+Build interactive UI components without frameworks
+
+🛠️ Technologies Used
+
+HTML
+
+JavaScript (ES6)
+
+Browser DOM API
+
+▶️ How to Run
+
+Open index.html in a browser
+
+Open DevTools (F12) to view console output
+
+Interact with buttons and input fields
+
 
 🛠️ Technologies Used
 
