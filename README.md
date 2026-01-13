@@ -151,12 +151,50 @@ Validate input before adding or updating
 
 Display total count of list items
 
-📂 Folder Structure (Example)
+📂 Folder Structure 
 📁 Day-3-Creating-Removing-Elements
    ├── index.html
    ├── script.js
    ├── style.css 
-   └── README.md
+   
+✅ Day 4 – Events & Event Listeners
+Topics Covered
+
+What is an event
+
+Common events (click, input, submit, keyup, keydown)
+
+User interactions in the browser
+
+Event listeners
+
+Handling events in JavaScript
+
+Event object
+
+Understanding event.target
+
+Default browser behavior
+
+Preventing default actions
+
+Form submission events
+
+Key Learnings
+
+Events are actions performed by users or the browser
+
+Event listeners help JavaScript respond to those actions
+
+The event object gives details about the event
+
+event.target identifies the element that triggered the event
+
+Default browser actions (like form reload) can be prevented
+
+Status
+
+✅ Day 4 completed
 
 🎯 Learning Objectives
 
@@ -207,21 +245,6 @@ Prepare for frontend interviews
 
 Improve code readability and confidence
 
-🚀 Future Improvements
-
-Event handling (click, input, submit)
-
-Mini projects:
-
-Dark mode toggle
-
-Modal popup
-
-Todo list
-
-DOM traversal
-
-Form validation
 
 👤 Author
 
